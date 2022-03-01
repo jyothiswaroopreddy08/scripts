@@ -5,7 +5,7 @@ pipeline{
     stage('Script'){
       steps{
         sh 'sh List.sh'
-//         sh 'sh folders.sh'
+        sh 'sh folders.sh'
       }
     }
   }
