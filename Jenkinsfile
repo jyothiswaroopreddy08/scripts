@@ -1,7 +1,7 @@
 pipeline{
   agent any
   
-  Stages{
+  stages{
     stage('Script'){
       steps{
         sh 'sh List.sh'
