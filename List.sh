@@ -1,2 +1,3 @@
 # !/bin/bash
-ls -l $dir|egrep '^d'
+se +e
+ls -l
