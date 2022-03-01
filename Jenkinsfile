@@ -6,6 +6,7 @@ pipeline{
       steps{
         sh 'sh List.sh'
         sh 'sh folders.sh'
+        sh 'sh sys-info.sh'
       }
     }
   }
